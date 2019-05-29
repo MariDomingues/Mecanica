@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/05/28 19:29:49.098,=C:\Users\ma_ap\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 19:30:23.550,C:\Mecanica\Delphi\UnitMenuPrincipal.pas=C:\Users\ma_ap\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 19:30:23.550,C:\Mecanica\Delphi\UnitMenuPrincipal.dfm=C:\Users\ma_ap\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/05/28 19:40:03.698,C:\Mecanica\Delphi\Mecanica.dproj=C:\Users\ma_ap\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/05/28 19:47:59.234,=C:\Mecanica\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 19:48:51.525,C:\Mecanica\Delphi\UnitPadrao.pas=C:\Mecanica\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 19:48:51.525,C:\Mecanica\Delphi\UnitPadrao.dfm=C:\Mecanica\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2019/05/28 23:09:03.675,=C:\Mecanica\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 23:13:33.918,C:\Mecanica\Delphi\UnitDM.pas=C:\Mecanica\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 23:13:33.918,C:\Mecanica\Delphi\UnitDM.dfm=C:\Mecanica\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2019/05/28 23:37:28.784,=C:\Mecanica\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/05/28 23:37:58.453,C:\Mecanica\Delphi\UnitPecas.pas=C:\Mecanica\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/05/28 23:37:58.453,C:\Mecanica\Delphi\UnitPecas.dfm=C:\Mecanica\Delphi\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

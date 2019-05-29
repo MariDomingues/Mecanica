@@ -1,0 +1,71 @@
+unit UnitPadrao1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.Phys.Intf,
+  FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt, Vcl.ComCtrls,
+  Vcl.ToolWin, Vcl.Menus, Vcl.StdCtrls, Vcl.DBCtrls, Vcl.Buttons, Vcl.ExtCtrls,
+  System.ImageList, Vcl.ImgList, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client;
+
+type
+  TFrmPadrao1 = class(TForm)
+    FDStatus: TFDCommand;
+    FDTabela: TFDTable;
+    ImageList1: TImageList;
+    ImageList2: TImageList;
+    ImageList3: TImageList;
+    ImageList4: TImageList;
+    PanelEntrada: TPanel;
+    LblStatus: TLabel;
+    Label2: TLabel;
+    BtnOk: TSpeedButton;
+    ValorCampo: TEdit;
+    CheckHabilita: TDBCheckBox;
+    PnlFicha: TPanel;
+    PopupMenu1: TPopupMenu;
+    IDCdigo1: TMenuItem;
+    odososregistrosdessatabela1: TMenuItem;
+    N1: TMenuItem;
+    Registrosbloqueadosparaouso2: TMenuItem;
+    N3: TMenuItem;
+    PopupMenu2: TPopupMenu;
+    IDCdigo2: TMenuItem;
+    MenuItem1: TMenuItem;
+    StatusBar1: TStatusBar;
+    ToolBar1: TToolBar;
+    btn_Pesquisar: TToolButton;
+    btn_Ordenar: TToolButton;
+    Separador1: TToolButton;
+    btn_Primeiro: TToolButton;
+    btn_Anterior: TToolButton;
+    btn_Proximo: TToolButton;
+    btn_Ultimo: TToolButton;
+    Separador2: TToolButton;
+    btn_Inserir: TToolButton;
+    btn_Alterar: TToolButton;
+    btn_Excluir: TToolButton;
+    Separador3: TToolButton;
+    btn_Salvar: TToolButton;
+    btn_Cancelar: TToolButton;
+    Separador4: TToolButton;
+    btn_Imprimir: TToolButton;
+    Separador5: TToolButton;
+    btn_Sair: TToolButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmPadrao1: TFrmPadrao1;
+
+implementation
+
+{$R *.dfm}
+
+end.

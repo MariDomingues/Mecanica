@@ -1,0 +1,14 @@
+program Mecanica;
+
+uses
+  Vcl.Forms,
+  UnitMenuPrincipal in 'UnitMenuPrincipal.pas' {FrmMenuPrincipal};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmMenuPrincipal, FrmMenuPrincipal);
+  Application.Run;
+end.
