@@ -5,8 +5,7 @@ uses
   UnitMenuPrincipal in 'UnitMenuPrincipal.pas' {FrmMenuPrincipal},
   UnitPadrao in 'UnitPadrao.pas' {FrmPadrao1},
   UnitDM in 'UnitDM.pas' {DM: TDataModule},
-  UnitPecas in 'UnitPecas.pas' {FrmPecas},
-  UnitClientes in 'UnitClientes.pas' {FrmCliente};
+  UnitPecas in 'UnitPecas.pas' {FrmPecas};
 
 {$R *.res}
 
@@ -17,6 +16,5 @@ begin
   Application.CreateForm(TFrmPadrao1, FrmPadrao1);
   Application.CreateForm(TDM, DM);
   Application.CreateForm(TFrmPecas, FrmPecas);
-  Application.CreateForm(TFrmCliente, FrmCliente);
   Application.Run;
 end.

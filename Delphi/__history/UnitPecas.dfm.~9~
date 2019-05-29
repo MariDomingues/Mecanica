@@ -68,16 +68,15 @@ inherited FrmPecas: TFrmPecas
     ExplicitTop = 248
   end
   inherited FDStatus: TFDCommand
-    Connection = DM.FDConnection1
-    Left = 707
-    Top = 138
+    Left = 811
+    Top = 146
   end
   inherited FDTabela: TFDTable
     IndexFieldNames = 'id'
     UpdateOptions.UpdateTableName = 'Mecanica.dbo.Pecas'
     TableName = 'Mecanica.dbo.Pecas'
-    Left = 747
-    Top = 138
+    Left = 795
+    Top = 98
     object FDTabelaid: TIntegerField
       FieldName = 'id'
       Origin = 'id'
@@ -3985,8 +3984,6 @@ inherited FrmPecas: TFrmPecas
     Top = 311
   end
   object FDQuery1: TFDQuery
-    Active = True
-    Connection = DM.FDConnection1
     SQL.Strings = (
       'SELECT id, descricao FROM  fabricante WHERE  Status <> '#39'I'#39';')
     Left = 384

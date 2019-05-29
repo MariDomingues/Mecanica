@@ -25,7 +25,6 @@ object FrmPadrao1: TFrmPadrao1
     BevelInner = bvRaised
     BevelOuter = bvLowered
     TabOrder = 0
-    ExplicitLeft = -394
     object LblStatus: TLabel
       Left = 766
       Top = 11
@@ -111,8 +110,6 @@ object FrmPadrao1: TFrmPadrao1
     Height = 140
     Align = alClient
     TabOrder = 1
-    ExplicitLeft = -394
-    ExplicitHeight = 103
   end
   object StatusBar1: TStatusBar
     Left = 0
@@ -132,8 +129,6 @@ object FrmPadrao1: TFrmPadrao1
       item
         Width = 50
       end>
-    ExplicitLeft = -394
-    ExplicitTop = 182
   end
   object ToolBar1: TToolBar
     Left = 0
@@ -152,7 +147,6 @@ object FrmPadrao1: TFrmPadrao1
     ShowCaptions = True
     ShowHint = True
     TabOrder = 3
-    ExplicitLeft = -394
     object btn_Pesquisar: TToolButton
       Left = 0
       Top = 0
@@ -300,13 +294,13 @@ object FrmPadrao1: TFrmPadrao1
     end
   end
   object FDStatus: TFDCommand
+    Connection = DM.FDConnection1
     Left = 747
     Top = 90
   end
   object FDTabela: TFDTable
     Connection = DM.FDConnection1
-    Transaction = DM.Trans
-    Left = 787
+    Left = 715
     Top = 90
   end
   object ImageList1: TImageList
@@ -315,7 +309,7 @@ object FrmPadrao1: TFrmPadrao1
     Left = 715
     Top = 365
     Bitmap = {
-      494C01010D001800740018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010D001800780018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000006000000001002000000000000090
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000009A66
@@ -1516,7 +1510,7 @@ object FrmPadrao1: TFrmPadrao1
     Left = 739
     Top = 365
     Bitmap = {
-      494C01010D001800740018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010D001800780018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000006000000001002000000000000090
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000008080
@@ -2717,7 +2711,7 @@ object FrmPadrao1: TFrmPadrao1
     Left = 771
     Top = 365
     Bitmap = {
-      494C01010D001800740018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010D001800780018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000600000006000000001002000000000000090
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000000000000000000000000000000000000000000000000000824B
@@ -3949,7 +3943,7 @@ object FrmPadrao1: TFrmPadrao1
   end
   object DataSource1: TDataSource
     DataSet = FDTabela
-    Left = 816
+    Left = 688
     Top = 93
   end
 end
