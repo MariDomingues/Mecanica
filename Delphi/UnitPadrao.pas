@@ -15,7 +15,6 @@ type
   TExecutar = (navegacao, sentencaSQL, exibePanels, desabilitaBotoes, habilitaBotoes, exibeBotoes);
   TFrmPadrao1 = class(TForm)
     FDStatus: TFDCommand;
-    FDTabela: TFDTable;
     ImageList1: TImageList;
     ImageList2: TImageList;
     ImageList3: TImageList;
@@ -56,6 +55,8 @@ type
     Separador5: TToolButton;
     btn_Sair: TToolButton;
     DataSource1: TDataSource;
+    ImageList4: TImageList;
+    FDTabela: TFDTable;
     procedure btn_PrimeiroClick(Sender: TObject);
     procedure btn_AnteriorClick(Sender: TObject);
     procedure btn_ProximoClick(Sender: TObject);
@@ -73,6 +74,7 @@ type
     procedure odososregistrosdessatabela1Click(Sender: TObject);
     procedure Registrosbloqueadosparaouso2Click(Sender: TObject);
     procedure IDCdigo1Click(Sender: TObject);
+
   private
     TExecutar : TExecutar;
     procedure SetExecutar(const Value: TExecutar);

@@ -68,6 +68,14 @@ type
     StatusBar1: TStatusBar;
     Timer1: TTimer;
     procedure Action1Execute(Sender: TObject);
+    procedure Action7Execute(Sender: TObject);
+    procedure Action8Execute(Sender: TObject);
+    procedure Action9Execute(Sender: TObject);
+    procedure Action10Execute(Sender: TObject);
+    procedure Action11Execute(Sender: TObject);
+    procedure Action12Execute(Sender: TObject);
+    procedure Action6Execute(Sender: TObject);
+    procedure Action5Execute(Sender: TObject);
   private
     { Private declarations }
   public
@@ -81,13 +89,70 @@ implementation
 
 {$R *.dfm}
 
-uses UnitPadrao, UnitDM, UnitPecas;
+uses UnitPadrao, UnitDM, UnitPecas, UnitClientes, UnitServicos, UnitFabricante,
+  UnitFuncionario, UnitModelo, UnitVeiculo, UnitCadPerfil, UnitUsuario;
+
+procedure TFrmMenuPrincipal.Action10Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmFuncionario, FrmFuncionario);
+  FrmFuncionario.ShowModal;
+  FrmFuncionario.Free;
+end;
+
+procedure TFrmMenuPrincipal.Action11Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmModelo, FrmModelo);
+  FrmModelo.ShowModal;
+  FrmModelo.Free;
+end;
+
+procedure TFrmMenuPrincipal.Action12Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmVeiculo, FrmVeiculo);
+  FrmVeiculo.ShowModal;
+  FrmVeiculo.Free;
+end;
 
 procedure TFrmMenuPrincipal.Action1Execute(Sender: TObject);
 begin
   Application.CreateForm(TFrmPecas, FrmPecas);
   FrmPecas.ShowModal;
   FrmPecas.Free;
+end;
+
+procedure TFrmMenuPrincipal.Action5Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmUsuario, FrmUsuario);
+  FrmUsuario.ShowModal;
+  FrmUsuario.Free;
+end;
+
+procedure TFrmMenuPrincipal.Action6Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmCadPerfil, FrmCadPerfil);
+  FrmCadPerfil.ShowModal;
+  FrmCadPerfil.Free;
+end;
+
+procedure TFrmMenuPrincipal.Action7Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmServicos, FrmServicos);
+  FrmServicos.ShowModal;
+  FrmServicos.Free;
+end;
+
+procedure TFrmMenuPrincipal.Action8Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmCliente, FrmCliente);
+  FrmCliente.ShowModal;
+  FrmCliente.Free;
+end;
+
+procedure TFrmMenuPrincipal.Action9Execute(Sender: TObject);
+begin
+  Application.CreateForm(TFrmFabricante, FrmFabricante);
+  FrmFabricante.ShowModal;
+  FrmFabricante.Free;
 end;
 
 end.

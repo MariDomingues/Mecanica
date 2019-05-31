@@ -45,40 +45,6 @@ object FrmMenuPrincipal: TFrmMenuPrincipal
       739
       143)
     StyleName = 'Ribbon - Luna'
-    object RibbonPage2: TRibbonPage
-      Left = 0
-      Top = 50
-      Width = 738
-      Height = 93
-      Caption = 'Movimenta'#231#227'o'
-      Index = 1
-      object RibbonGroup9: TRibbonGroup
-        Left = 4
-        Top = 3
-        Width = 76
-        Height = 86
-        ActionManager = ActionManager1
-        Caption = 'Venda'
-        GroupIndex = 0
-        Rows = 1
-      end
-    end
-    object RibbonPage3: TRibbonPage
-      Left = 0
-      Top = 50
-      Width = 738
-      Height = 93
-      Caption = 'Relat'#243'rio'
-      Index = 2
-    end
-    object RibbonPage4: TRibbonPage
-      Left = 0
-      Top = 50
-      Width = 738
-      Height = 93
-      Caption = 'Gr'#225'fico'
-      Index = 3
-    end
     object RibbonPage5: TRibbonPage
       Left = 0
       Top = 50
@@ -102,13 +68,47 @@ object FrmMenuPrincipal: TFrmMenuPrincipal
         Rows = 1
       end
       object RibbonGroup10: TRibbonGroup
-        Left = 55
+        Left = 59
         Top = 3
         Width = 41
         Height = 86
         ActionManager = ActionManager1
         Caption = 'Perfil'
         GroupIndex = 1
+        Rows = 1
+      end
+    end
+    object RibbonPage4: TRibbonPage
+      Left = 0
+      Top = 50
+      Width = 738
+      Height = 93
+      Caption = 'Gr'#225'fico'
+      Index = 3
+    end
+    object RibbonPage3: TRibbonPage
+      Left = 0
+      Top = 50
+      Width = 738
+      Height = 93
+      Caption = 'Relat'#243'rio'
+      Index = 2
+    end
+    object RibbonPage2: TRibbonPage
+      Left = 0
+      Top = 50
+      Width = 738
+      Height = 93
+      Caption = 'Movimenta'#231#227'o'
+      Index = 1
+      object RibbonGroup9: TRibbonGroup
+        Left = 4
+        Top = 3
+        Width = 76
+        Height = 86
+        ActionManager = ActionManager1
+        Caption = 'Venda'
+        GroupIndex = 0
         Rows = 1
       end
     end
@@ -377,41 +377,49 @@ object FrmMenuPrincipal: TFrmMenuPrincipal
       Category = 'Ferramentas'
       Caption = 'Usu'#225'rio'
       ImageIndex = 1
+      OnExecute = Action5Execute
     end
     object Action6: TAction
       Category = 'Ferramentas'
       Caption = 'Perfil'
       ImageIndex = 0
+      OnExecute = Action6Execute
     end
     object Action7: TAction
       Category = 'Cadastro'
       Caption = 'Servi'#231'os'
       ImageIndex = 5
+      OnExecute = Action7Execute
     end
     object Action8: TAction
       Category = 'Cadastro'
       Caption = 'Cliente'
       ImageIndex = 6
+      OnExecute = Action8Execute
     end
     object Action9: TAction
       Category = 'Cadastro'
       Caption = 'Fabricante'
       ImageIndex = 9
+      OnExecute = Action9Execute
     end
     object Action10: TAction
       Category = 'Cadastro'
       Caption = 'Funcion'#225'rio'
       ImageIndex = 7
+      OnExecute = Action10Execute
     end
     object Action11: TAction
       Category = 'Cadastro'
       Caption = 'Modelo'
       ImageIndex = 4
+      OnExecute = Action11Execute
     end
     object Action12: TAction
       Category = 'Cadastro'
       Caption = 'Ve'#237'culo'
       ImageIndex = 3
+      OnExecute = Action12Execute
     end
   end
   object QueryLogin: TFDQuery

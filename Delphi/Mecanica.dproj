@@ -112,6 +112,34 @@
             <Form>FrmCliente</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="UnitFabricante.pas">
+            <Form>FrmFabricante</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UnitFuncionario.pas">
+            <Form>FrmFuncionario</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UnitModelo.pas">
+            <Form>FrmModelo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UnitCadPerfil.pas">
+            <Form>FrmCadPerfil</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UnitServicos.pas">
+            <Form>FrmServicos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UnitVeiculo.pas">
+            <Form>FrmVeiculo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UnitUsuario.pas">
+            <Form>FrmUsuario</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
